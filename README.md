@@ -287,3 +287,249 @@ leetcode 编程 算法
     在豆瓣学算法  (39人关注)
     it  (3人关注)
 
+
+
+
+
+
+
+
+Dynamic Programming
+
+Edit Distance
+Maximum Subarray
+Minimum Path Sum
+Unique Paths
+Unique Paths II
+Longest Palindromic Substring
+Interleaving String
+Triangle
+Distinct Subsequences
+Decode Ways
+Palindrome Partitioning II
+Maximal Rectangle
+
+Recursion
+
+N-Queens
+N-Queens II
+Balanced Binary Tree
+Binary Tree Inorder Traversal
+Binary Tree Maximum Path Sum
+Convert Sorted Array to Binary Search Tree
+Convert Sorted List to Binary Search Tree
+Flatten Binary Tree to Linked List
+Maximum Depth of Binary Tree
+Minimum Depth of Binary Tree
+Path Sum
+Permutations
+Permutations II
+Populating Next Right Pointers in Each Node
+Pow(x, n)
+Same Tree
+Subsets
+Sum Root to Leaf Numbers
+Swap Nodes in Pairs
+Symmetric Tree
+Valid Palindrome
+Validate Binary Search Tree
+Restore IP Addresses
+Combinations
+Interleaving String (dp is the best)
+Combination Sum II
+Letter Combinations of a Phone Numbers
+Word Search
+Construct Binary Tree from Inorder and Postorder Traversal
+Construct Binary Tree from Preorder and Inorder Traversal
+Generate Parentheses
+Surrounded Regions (runtime error)
+Palindrome Partitioning
+Combination Sum
+Sudoku Solver
+Unique Binary Search Trees II
+
+Binary Search
+
+Search Insert Position
+Search a 2D Matrix
+Search for a Range
+Search in Rotated Sorted Array
+Sqrt(x)
+
+Sequence
+
+Container With Most Water
+Count and Say
+First Missing Positive
+Implement strStr()
+Jump Game
+Jump Game II
+Length of Last Word
+Longest Common Prefix
+Longest Substring Without Repeating Characters
+Merge Sorted Array
+Palindrome Number
+Plus One
+Remove Duplicates from Sorted Array
+Remove Duplicates from Sorted Array II
+Remove Element
+Reverse Integer
+Search in Rotated Sorted Array II
+Sort Colors
+Two Sum
+3Sum
+3Sum Closest
+4Sum
+Add Binary
+Longest Palindromic Substring
+Next Permutation
+Longest Valid Parentheses
+Climbing Stairs
+Permutation Sequence
+Simplify Path
+String to Integer (atoi)
+Minimum Window Substring
+Longest Consecutive Sequence
+Trapping Rain Water
+Valid Number
+
+Linked List
+
+Add Two Numbers
+Convert Sorted List to Binary Search Tree
+Merge Two Sorted Lists
+Partition List
+Remove Duplicates from Sorted List
+Remove Duplicates from Sorted List II
+Remove Nth Node From End of List
+Reverse Linked List II
+Reverse Nodes in k-Group
+Rotate List
+Swap Nodes in Pairs
+
+Stack
+
+Binary Tree Inorder Traversal
+Binary Tree Level Order Traversal II
+Valid Parentheses
+
+Queue
+
+Binary Tree Level Order Traversal
+Binary Tree Level Order Traversal II
+Populating Next Right Pointers in Each Node II
+Symmetric Tree
+Surrounded Regions
+Word Ladder
+
+Tree
+
+Balanced Binary Tree
+Binary Tree Inorder Traversal
+Binary Tree Level Order Traversal
+Binary Tree Level Order Traversal II
+Binary Tree Maximum Path Sum
+Convert Sorted Array to Binary Search Tree
+Convert Sorted List to Binary Search Tree
+Flatten Binary Tree to Linked List
+Maximum Depth of Binary Tree
+Minimum Depth of Binary Tree
+Path Sum
+Same Tree
+Sum Root to Leaf Numbers
+Symmetric Tree
+Validate Binary Search Tree
+
+
+
+
+LeetCode题解
+PDF下载
+
+LeetCode题解(C++版).pdf
+
+C++ 文件夹下是C++版，内容一模一样，代码是用C++写的。
+
+Java 文件夹下是Java版，目前正在编写中，由于拖延症，不知道猴年马月能完成。
+LaTeX模板
+
+本书使用的是陈硕开源的模板。这个模板制作精良，很有taste，感谢陈硕 :)
+在Windows下编译
+
+    安装Tex Live 2015 http://www.tug.org/texlive/。把bin目录例如D:\texlive\2015\bin\win32加入PATH环境变量。
+    安装字体。这个LaTex模板总共使用了10个字体，下载地址 http://pan.baidu.com/s/1jIgyuRc ，有的字体Windows自带了，有的字体Ubuntu自带了，但都不全，还是一次性安装完所有字体比较方便。
+    安装TeXstudio http://texstudio.sourceforge.net/
+    (可选)启动Tex Live Manager，更新所有已安装的软件包。
+
+    配置TeXstudio。
+
+    启动Texstudio，选择 Options-->Configure Texstudio-->Commands，XeLaTex 设置为 xelatex -synctex=1 -interaction=nonstopmode %.tex；
+
+    选择 Options-->Configure Texstudio-->Build
+
+    Build & View 由默认的 PDF Chain 改为 Compile & View；
+
+    Default Compiler 由默认的PdfLaTex 修改为 XeLaTex ；
+
+    PDF Viewer 改为 “Internal PDF Viewer(windowed)”，这样预览时会弹出一个独立的窗口，这样比较方便。
+
+    编译。用TeXstudio打开typeset.tex，点击界面上的绿色箭头就可以开始编译了。
+
+    在下方的窗口可以看到TeXstudio正在使用的编译命令是xelatex -synctex=1 -interaction=nonstopmode "typeset".tex
+
+在Ubuntu下编译
+
+    安装Tex Live 2015 http://www.tug.org/texlive/
+
+    1.1. 下载TexLive 2015 的ISO 光盘，地址 http://www.tug.org/texlive/acquire-iso.html
+
+    1.2 mount 光盘，sudo ./install-tl 开始安装
+
+    1.3 加入环境变量
+
+    sudo vi /etc/profile
+    export PATH=$PATH:/usr/local/texlive/2015/bin/x86_64-linux
+    export MANPATH=$MANPATH:/usr/local/texlive/2015/texmf-dist/doc/man
+    export INFPATH=$INFPATH:/usr/local/texlive/2015/texmf-dist/doc/info
+
+    安装字体。这个LaTex模板总共使用了10个字体，下载地址 http://pan.baidu.com/s/1jIgyuRc ，有的字体Windows自带了，有的字体Ubuntu自带了，但都不全，还是一次性安装完所有字体比较方便。
+    安装TeXstudio http://texstudio.sourceforge.net/
+
+    配置TeXstudio。
+
+    启动Texstudio，选择 Options-->Configure Texstudio-->Commands，XeLaTex 设置为 xelatex -synctex=1 -interaction=nonstopmode %.tex；
+
+    选择 Options-->Configure Texstudio-->Build
+
+    Build & View 由默认的 PDF Chain 改为 Compile & View；
+
+    Default Compiler 由默认的PdfLaTex 修改为 XeLaTex ；
+
+    PDF Viewer 改为 “Internal PDF Viewer(windowed)”，这样预览时会弹出一个独立的窗口，这样比较方便。
+
+    编译。用TeXstudio打开typeset.tex，点击界面上的绿色箭头就可以开始编译了。
+
+    在下方的窗口可以看到TeXstudio正在使用的编译命令是xelatex -synctex=1 -interaction=nonstopmode "typeset".tex
+    懒人版镜像。如果不想进行上面繁琐的安装过程，我做好了一个Ubuntu VMware虚拟机镜像，已经装好了 TexLive 2015, TexStudio和字体(详细的安装日志见压缩包注释)，开箱即用，下载地址 http://pan.baidu.com/s/1cLWkgA。
+
+如何贡献代码
+
+编译通过后，就具备了完整的LaTeX编译环境了。
+
+本书模板已经写好了，基本上不需要很多LaTeX知识就可以动手了。
+
+欢迎给本书添加内容或纠正错误，在自己本地编译成PDF，预览没问题后，就可以发pull request过来了。
+北美求职QQ群
+
+237669375
+【友情推荐】九章算法
+
+    算法辅导在线视频直播课程：http://www.jiuzhang.com?source=soulmachine
+
+AlgoHub
+
+https://www.algohub.org 是我建立的一个刷题网站，即将上线，敬请期待
+纸质书
+
+本书即将由电子工业出版社出版，敬请期待
+
